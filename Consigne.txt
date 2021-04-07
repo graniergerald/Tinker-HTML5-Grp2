@@ -1,0 +1,14 @@
+Exo : reproduire la template :
+
+Consigne :
+Font : Roboto partout
+choix libre sur la techno utilisé
+Slider à faire, JQUERY, JS :) 
+
+Git : Projet sur Github obigatoirement, qu'il voye les différentes branches.
+
+Github page : Hoster tout le front-end du projet. Pour l'activer : aller sur les settings, en descendant activer GitHub Page, selectionner la branch master.
+Sauvegarder puis Lien généré. Met 3-4 min à ce mettre en place :)
+Le GitHub page ce met automatiquement à jour par rapport à la branch master.
+
+Lien à donner à Christopher après :) 
