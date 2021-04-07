@@ -108,3 +108,49 @@ header li {
   color: black;
   text-transform: uppercase;
 }
+/*------------------------------------------------*/
+/*-------------SECTION CARDS----------------------*/
+/*------------------------------------------------*/
+/*-----------------------------------------------*/
+.cards {
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: space-evenly;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: url("../img/about-bg.jpg");
+  background-size: cover;
+  width: auto;
+  color: #fff;
+  font-size: smaller;
+}
+.cards h2 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.603);
+  padding-bottom: 20px;
+}
+.cards p {
+  line-height: 1.5em;
+}
+.cards button {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.card {
+  max-width: 300px;
+  max-height: 400px;
+}
+.bg_card-image {
+  background-color: #f6c45c;
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 25px;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  display: flex;
+}
