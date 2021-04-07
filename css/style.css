@@ -13,10 +13,13 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 a {
   text-decoration: none;
+  text-transform: none;
+  color: white;
 }
 
 .button_style-primary {
@@ -30,5 +33,78 @@ a {
   outline: none;
 }
 
-/*------------------------------------------------*/
-/*-----------------------------------------------*/
+ul li {
+  list-style-type: none;
+}
+
+/*-----------------------------------------------------*/
+/*--------------------HEADER---------------------------*/
+
+header {
+  background-image: url(../img/banner_bg.jpg);
+  background-position: center;
+  height: 698px;
+  width: auto;
+  background-repeat: cover;
+  padding-top: 1.5em;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+header h2 {
+  text-transform: uppercase;
+}
+
+#TGROS {
+  color: var(--orangetinker);
+  font-size: 30px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+}
+
+/*---------------------*/
+
+#TINKER {
+  color: var(--orangetinker);
+}
+
+#HTML5 {
+  color: var(--secondary-color);
+}
+
+.accueil {
+  margin-top: 12em;
+  text-align: center;
+}
+
+.accueil p {
+  width: 500px;
+  font-weight: 400;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.buttonheader {
+  background-color: white;
+  color: black;
+}
+
+.buttonheader a {
+  color: black;
+  text-transform: uppercase;
+}
