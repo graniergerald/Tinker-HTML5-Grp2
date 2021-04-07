@@ -1,3 +1,34 @@
-h1 {
+/*------------------------------------------------*/
+/*-------------VARIABLE STYLE EN COMMUN-----------*/
+/*------------------------------------------------*/
+/*-----------------------------------------------*/
+
+:root {
+  --primary-color: #f6c45c;
+  --secondary-color: #3dc1cd;
+  --grisclair: #596065;
+  --grisfoncé: #383b3c;
+  --orangetinker: #eb9036;
+}
+
+body {
   font-family: "Roboto", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+.button_style-primary {
+  margin-left: 2em;
+  margin-right: 2em;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  outline: none;
+}
+
+/*------------------------------------------------*/
+/*-----------------------------------------------*/
