@@ -95,11 +95,18 @@ a {
 
 /* ----------Blog articles--------- */
 
+.blog-article {
+  position: relative;
+}
+
 .article {
+  display: none;
   background-color: #fff;
   width: 80%;
   margin-left: 2rem;
   margin-top: 2rem;
+  position: absolute;
+  max-width: 850px;
 }
 
 .article-description {
@@ -129,4 +136,8 @@ a {
   font-size: 0.8rem;
   font-weight: 300;
   line-height: 2;
+}
+
+.blog-article--active {
+  display: initial;
 }
